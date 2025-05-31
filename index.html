@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,132 +9,136 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-
-    <div class="top-bar">
-        <div class="container top-bar-content">
-            <a href="#" class="icon-text"><i class="fas fa-home"></i> หน้าแรก</a>
-            <a href="#" class="icon-text"><i class="fas fa-envelope"></i> ติดต่อ/ร้องเรียน</a>
-            <a href="#" class="icon-text"><i class="fas fa-sitemap"></i> แผนผังเว็บไซต์</a>
-            <a href="#" class="icon-text"><i class="fas fa-question-circle"></i> FAQ</a>
-        </div>
-    </div>
-
-    <header class="header">
+    <header class="header"> 
         <div class="container header-content">
             <div class="logo">
-                <img src="https://via.placeholder.com/60x60/2196F3/FFFFFF?text=Logo" alt="เทศบาลเมืองด้วงช้าง 5.0">
+                <img src="images\images\LOGO.png" alt="เทศบาลเมืองด้วงช้าง 5.0">
                 <div class="logo-text">
                     เทศบาลเมืองด้วงช้าง 5.0
                     <span>อำเภอเมืองด้วงช้าง จังหวัดด้วงช้าง</span>
                 </div>
             </div>
             <nav class="main-nav">
-                <ul>
-                    <li><a href="#">หน้าหลัก</a></li>
-                    <li><a href="#">ข่าวประชาสัมพันธ์</a></li>
-                    <li><a href="#">โครงสร้างองค์กร</a></li>
-                    <li><a href="#">แผนงาน/โครงการ</a></li>
-                    <li><a href="#">บริการประชาชน</a></li>
-                    <li><a href="#">เกี่ยวกับเทศบาล</a></li>
-                </ul>
+                <div class="top-bar">
+                    <div class="container top-bar-content">
+                        <a href="#" class="icon-text"><i class="fas fa-home"></i> หน้าแรก</a>
+                        <a href="#" class="icon-text"><i class="fas fa-envelope"></i> ติดต่อ/ร้องเรียน</a>
+                        <a href="#" class="icon-text"><i class="fas fa-sitemap"></i> แผนผังเว็บไซต์</a>
+                        <a href="#" class="icon-text"><i class="fas fa-question-circle"></i> FAQ</a>
+                    </div>
+                </div>
             </nav>
         </div>
     </header>
 
-    <div class="hero-image"></div>
-
     <section class="banner">
-        </section>
-
-    <section class="search-bar-section">
         <div class="container">
-            <div class="search-container">
+            <div class="banner-content">
+                <div class="banner-logo">
+                    <img src="images/images/icon/ico-mic.png" alt="เทศบาลเมืองด้วงช้าง 5.0">
+                    <img src="images/images/bgs-namehotnews.png" alt="เทศบาลเมืองด้วงช้าง 5.0 Logo">
+                    <div class="banner-text">
+                        ยิoดีต้อนรับเทศบาลเมืองด้วงช้าง 5.0
+                </div>
+            </div>
+            <nav class="banner-nav">
                 <input type="text" class="search-input" placeholder="ค้นหาข้อมูลเทศบาลเมืองด้วงช้าง 5.0">
                 <button class="search-button"><i class="fas fa-search"></i></button>
-            </div>
         </div>
-    </section>
 
-    <section class="main-content-grid container">
+</section>
+
+<section class="main-content-grid container">
         <div class="profile-card">
-            <div class="avatar"><i class="fas fa-user"></i></div>
-            <h3>นายกเทศบาลเมืองด้วงช้าง</h3>
-            <p>เทศบาลเมืองด้วงช้าง</p>
             <div class="contact-info">
-                <p><i class="fas fa-phone"></i> 043-000-0000</p>
-                <p><i class="fas fa-clock"></i> วันจันทร์-ศุกร์</p>
-                <p><i class="fas fa-map-marker-alt"></i> ที่ตั้งเทศบาลเมืองด้วงช้าง</p>
+                <p><img src="images/images/icon/ico-phone.png"></p>
             </div>
         </div>
 
         <div class="featured-video">
-            <div class="video-header">วิดีโอแนะนำ</div>
-            <div class="video-placeholder">วิดีโอตัวอย่าง</div>
-            <div class="video-description">คำอธิบายสั้นๆ เกี่ยวกับเนื้อหาวิดีโอที่แนะนำบริการหรือกิจกรรมของเทศบาล</div>
+            <div class="video-header">
+                <a href="">
+                    <img src="images/images/icon/ico-youtube.png" alt="YouTube Icon">
+                </a>
+                <ul>
+                    <li><a href="#"><h1>วีดีทัศน์แนะนำ</h1></a></li>
+                    <li><a href="#">เทศบาลเมืองตัวอย่าง 5.0</a></li>
+                <h1></h1>
+            </div>
+            <iframe width="600" height="315" src="https://www.youtube.com/embed/your_video_id" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="video-description">More</div>
             <div class="video-controls">
-                <a href="#" class="video-control-button"><i class="fas fa-download"></i> ดาวน์โหลดคู่มือ</a>
-                <a href="#" class="video-control-button"><i class="fas fa-question-circle"></i> คำถามที่พบบ่อย</a>
+                <a href="#" class="video-control-button">สารจากผู้บริหาร</a>
+                <a href="#" class="video-control-button">คำแถลงนโยบายของผู้บริหาร</a>
             </div>
         </div>
 
-        <div class="profile-card">
-            <div class="avatar"><i class="fas fa-user"></i></div>
-            <h3>ปลัดเทศบาลเมืองด้วงช้าง</h3>
-            <p>เทศบาลเมืองด้วงช้าง</p>
+        <div class="profile-palad-card">
             <div class="contact-info">
-                <p><i class="fas fa-phone"></i> 043-000-0000</p>
-                <p><i class="fas fa-clock"></i> วันจันทร์-ศุกร์</p>
-                <p><i class="fas fa-map-marker-alt"></i> ที่ตั้งเทศบาลเมืองด้วงช้าง</p>
+                <p><img src="images/images/icon/ico-phone.png"></p>
             </div>
         </div>
     </section>
 
     <section class="e-service-section">
         <div class="container">
-            <div class="e-service-header">
-                <h2>บริการออนไลน์ E-Service</h2>
-                <nav class="e-service-menu-top">
-                    <ul>
-                        <li><a href="#">ยื่นคำร้อง</a></li>
-                        <li><a href="#">แจ้งเรื่องทั่วไป</a></li>
-                        <li><a href="#">ร้องเรียน</a></li>
-                        <li><a href="#">ขอข้อมูลข่าวสาร</a></li>
-                    </ul>
-                </nav>
+        <header class="main-header">
+            <div class="header-background"></div> <div class="header-content-wrapper">
+                <div class="header-left-section">
+                    <div class="highlight-logo">
+                        <div class="logo-text">
+                            <p class="highlights-text">Highlights</p>
+                            <p class="service-name">ศูนย์บริการแบบเบ็ดเสร็จ</p>
+                        </div>
+                    </div>
+                    <div class="e-service-block">
+                        <img src="images/images/bgs-icohighlight.png" alt="E-Service Mobile" class="e-service-mobile-img"> 
+                        <div class="online-service-button">
+                            <p>บริการออนไลน์</p>
+                            <p class="e-service-btn-text">E-Service <span class="click-text">Click</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header-right-section">
+                    <div class="e-service-info-bar">
+                        <div class="search-bar"></div>
+                        <p>E-Service การให้บริการภาครัฐผ่านระบบอิเล็กทรอนิกส์เพื่อบริการ</p>
+                    </div>
+                    <div class="e-service-icons-row">
+                        <div class="arrow-button left-arrow"></div>
+                        <div class="icon-item">
+                            <img src="images/images/banner/bnn-post.png" alt="Icon 1">
+                            <p>ช่องทาง<br>อิเล็กทรอนิกส์</p>
+                        </div>
+                        <div class="icon-item">
+                            <img src="images/images/banner/bnn-eservicenew.png" alt="Icon 2">
+                            <p>บริการออนไลน์<br>คำร้องทั่วไป</p>
+                        </div>
+                        <div class="icon-item">
+                            <img src="images/images/banner/bnn-appeal.png" alt="Icon 3">
+                            <p>ร้องเรียน<br>เรื่องทั่วไป</p>
+                        </div>
+                        <div class="icon-item">
+                            <img src="images/images/banner/bnn-fraud.png" alt="Icon 4">
+                            <p>ร้องเรียน<br>ทุจริต</p>
+                        </div>
+                        <div class="icon-item">
+                            <img src="images/images/banner/bnn-clue.png" alt="Icon 5">
+                            <p>แจ้งเบาะแส<br>ป้ายโฆษณา</p>
+                        </div>
+                        <div class="arrow-button right-arrow"></div>
+                    </div>
+                </div>
             </div>
-            <div class="e-service-cards">
-                <a href="#" class="e-service-card">
-                    <div class="icon"><i class="fas fa-upload"></i></div>
-                    <p>ยื่นคำร้อง<br>ขออนุญาต</p>
-                </a>
-                <a href="#" class="e-service-card">
-                    <div class="icon"><i class="fas fa-money-bill-wave"></i></div>
-                    <p>ชำระภาษี<br>ออนไลน์</p>
-                </a>
-                <a href="#" class="e-service-card">
-                    <div class="icon"><i class="fas fa-file-alt"></i></div>
-                    <p>ดาวน์โหลด<br>เอกสาร</p>
-                </a>
-                <a href="#" class="e-service-card">
-                    <div class="icon"><i class="fas fa-balance-scale"></i></div>
-                    <p>นิติกรรม<br>สัญญา</p>
-                </a>
-                <a href="#" class="e-service-card">
-                    <div class="icon"><i class="fas fa-calendar-alt"></i></div>
-                    <p>จองห้อง<br>ประชุม</p>
-                </a>
-                <a href="#" class="e-service-card">
-                    <div class="icon"><i class="fas fa-clipboard-list"></i></div>
-                    <p>ตรวจสอบ<br>สถานะ</p>
-                </a>
-            </div>
-        </div>
+        </header>
+    </div>
     </section>
 
-        <section class="content-body container">
+    <section class="content-body container">
         <div class="left-nav">
-
             <div class="nav-group">
                 <div class="nav-group-title">
                     <i class="fas fa-info-circle"></i> ข้อมูลพื้นฐาน
@@ -229,7 +234,7 @@
                 </ul>
             </div>
 
-             <div class="nav-group">
+            <div class="nav-group">
                 <div class="nav-group-title">
                     <i class="fas fa-cogs"></i> การดำเนินงาน
                 </div>
@@ -329,8 +334,6 @@
         </div>
 
         <div class="right-content">
-            <h2>OpenOffice เปลี่ยนจากยอดขวัญ Gift Policy เป็นคำอวยพร</h2>
-            <p>เทศบาลเมืองด้วงช้าง 5.0</p>
             <div class="gift-policy-card">
                 <div class="image-placeholder">รูปภาพกิจกรรม / ภาพประกอบ</div>
                 <div class="text-content">
@@ -352,25 +355,14 @@
 
             <div class="content-grid">
                 <div class="card newsletter-card">
-                    <div class="icon-left">
-                        <i class="fas fa-mailbox"></i>
-                        <i class="fas fa-envelope"></i>
+                    <div class="card-header">
+                        <i class="fas fa-newspaper"></i> ข่าวสาร ประชาสัมพันธ์    
                     </div>
-                    <div class="newsletter-card-header">
-                        จดหมายข่าว
-                        <a href="#" class="more-button">MORE</a>
-                    </div>
-                    <div class="newsletter-content">
-                        <div class="newsletter-arrow left"><i class="fas fa-angle-left"></i></div>
-                        <div class="newsletter-arrow right"><i class="fas fa-angle-right"></i></div>
-                        <div class="newsletter-image"></div>
-                        <div class="newsletter-text">
-                            แนวทางการจัดทำแผนความต่อเนื่องขององค์กรปกครองส่วนท้องถิ่นภายใต้ภาวะวิกฤตของโรคติดเชื้อไวรัสโคโรนา 2019 (COVID-19)
-                        </div>
-                        <div class="newsletter-footer">
-                            <span class="source">©GROWLISTO</span>
-                            <span class="date"></span>
-                        </div>
+                    <div class="card-body">
+                        <img src="images/images/bgs-newsletter.png" alt="ข่าวสารประชาสัมพันธ์">
+                        <h3></h3>
+                        <p>ข่าวสารและกิจกรรมต่างๆ ของเทศบาลเมืองด้วงช้าง</p>
+                        <a href="#" class="click-button">Click</a>
                     </div>
                 </div>
 
@@ -379,7 +371,7 @@
                         <i class="fas fa-trophy"></i> รางวัล
                     </div>
                     <div class="card-body">
-                        <img src="https://via.placeholder.com/80x80/FFD700/FFFFFF?text=🏆" alt="รางวัลแห่งความภาคภูมิใจ">
+                        <img src="images/images/banner/bnn-award.png" alt="รางวัลแห่งความภาคภูมิใจ">
                         <h3>แห่งความภาคภูมิใจ</h3>
                         <p>จากนโยบายของผู้บริหารดำเนินการโดยยึดหลักธรรมาภิบาล</p>
                         <a href="#" class="click-button">Click</a>
@@ -391,7 +383,7 @@
                         <i class="fas fa-lightbulb"></i> การสร้างการรับรู้
                     </div>
                     <div class="card-body">
-                        <img src="https://via.placeholder.com/80x80/4CAF50/FFFFFF?text=💡" alt="การสร้างการรับรู้สู่ชุมชน">
+                        <img src="images/images/banner/bnn-lean.png" alt="การสร้างการรับรู้สู่ชุมชน">
                         <h3>สู่ชุมชน</h3>
                         <p>แนวทางการขับเคลื่อนการสร้างการรับรู้สู่ชุมชนในระดับพื้นที่</p>
                         <a href="#" class="click-button">Click</a>
@@ -403,7 +395,7 @@
                         <i class="fas fa-shield-alt"></i> ITA
                     </div>
                     <div class="card-body">
-                        <img src="https://via.placeholder.com/80x80/00BCD4/FFFFFF?text=ITA" alt="ITA Icon">
+                        <img src="images/images/banner/bnn-ita.png" alt="ITA Icon">
                         <h3></h3>
                         <p>การประเมินคุณธรรมและความโปร่งใสในการดำเนินงานของหน่วยงานภาครัฐ</p>
                         <a href="#" class="click-button">Click</a>
@@ -415,7 +407,7 @@
                         <i class="fas fa-chart-pie"></i> LPA
                     </div>
                     <div class="card-body">
-                        <img src="https://via.placeholder.com/80x80/9C27B0/FFFFFF?text=LPA" alt="LPA Icon">
+                        <img src="images/images/banner/bnn-lpa.png" alt="LPA Icon">
                         <h3></h3>
                         <p>การประเมินประสิทธิภาพขององค์กรปกครองส่วนท้องถิ่น</p>
                         <a href="#" class="click-button">Click</a>
@@ -453,96 +445,363 @@
             </div>
 
             <div class="activities-section">
-    <div class="activities-header">
-        <h2>กิจกรรม/ผลงาน</h2>
-        <a href="#">ดูทั้งหมด <i class="fas fa-angle-right"></i></a>
-    </div>
-    <div class="activities-grid">
-        <div class="activity-card">
-            <div class="activity-icon"><i class="fas fa-globe"></i></div>
-            <h3>กิจกรรมป้องกันและลดอุบัติเหตุทางถนน เทศกาลสงกรานต์...</h3>
-            <p>วันที่ 11 เมษายน พ.ศ.2568 เทศบาลเมืองด้วงช้างร่วมกับทุกภาคส่วน จัดกิจกรรมป้องกันและลดอุบัติเหตุทางถนน เทศกาลสงกรานต์ ประจำปี ...</p>
-            <p class="activity-date">วันที่ 11 เมษายน พ.ศ.2568</p>
+                <div class="activities-header">
+                    <h2>กิจกรรม/ผลงาน</h2>
+                    <a href="#">ดูทั้งหมด <i class="fas fa-angle-right"></i></a>
+                </div>
+                <div class="activities-grid">
+                    <div class="activity-card">
+                        <div class="activity-icon"><i class="fas fa-globe"></i></div>
+                        <h3>กิจกรรมป้องกันและลดอุบัติเหตุทางถนน เทศกาลสงกรานต์...</h3>
+                        <p>วันที่ 11 เมษายน พ.ศ.2568 เทศบาลเมืองด้วงช้างร่วมกับทุกภาคส่วน จัดกิจกรรมป้องกันและลดอุบัติเหตุทางถนน เทศกาลสงกรานต์ ประจำปี ...</p>
+                        <p class="activity-date">วันที่ 11 เมษายน พ.ศ.2568</p>
+                    </div>
+                    <div class="activity-card">
+                        <div class="activity-icon"><i class="fas fa-globe"></i></div>
+                        <h3>เชิญชวนเข้าร่วมกิจกรรม วันเด็กแห่งชาติ</h3>
+                        <p>วันเสาร์ที่ 11 มกราคม พ.ศ.2568 เทศบาลเมืองด้วงช้างขอเชิญชวน น้องๆ หนูๆ และผู้ปกครองเข้าร่วมงานวันเด็กแห่งชาติ ประจำปี ...</p>
+                        <p class="activity-date">วันที่ 11 มกราคม พ.ศ.2568</p>
+                    </div>
+                    <div class="activity-card">
+                        <div class="activity-icon"><i class="fas fa-globe"></i></div>
+                        <h3>กองสาธารณสุขและสิ่งแวดล้อม ออกตรวจคัดกรองป้องก้นการ...</h3>
+                        <p>เมื่อวันที่ 23 มิถุนายน 2563 กองสาธารณสุขและสิ่งแวดล้อม ลงพื้นที่ออกตรวจคัดกรองป้องกันการติดเชื้อไวรัสโคโรนา 2019 (COVID-19)...</p>
+                        <p class="activity-date">วันที่ 23 มิถุนายน 2563</p>
+                    </div>
+                    <div class="activity-card">
+                        <div class="activity-icon"><i class="fas fa-globe"></i></div>
+                        <h3>การประเมินการจัดทำแผนพัฒนาคุณธรรมประจำปี พ.ศ.2568</h3>
+                        <p>วันจันทร์ที่ 28 พฤศจิกายน พ.ศ.2567 ประเมินผลการจัดทำแผนพัฒนาคุณธรรม ประจำปี พ.ศ.2568 ณ ห้องประชุมเทศบาลเมืองด้วงช้าง</p>
+                        <p class="activity-date">วันจันทร์ที่ 28 พฤศจิกายน พ.ศ.2567</p>
+                    </div>
+                    <div class="activity-card">
+                        <div class="activity-icon"><i class="fas fa-globe"></i></div>
+                        <h3>ประชุมและพาโครงการประเพณีลอยกระทง</h3>
+                        <p>วันศุกร์ที่ 22 พฤศจิกายน พ.ศ.2568 ประชุมและหารือโครงการประเพณีลอยกระทง ประจำปี พ.ศ.2568 ณ ห้องประชุมเทศบาลเมืองด้วงช้าง</p>
+                        <p class="activity-date">วันศุกร์ที่ 22 พฤศจิกายน พ.ศ.2568</p>
+                    </div>
+                    <div class="activity-card">
+                        <div class="activity-icon"><i class="fas fa-globe"></i></div>
+                        <h3>ประเพณีลอยกระทง</h3>
+                        <p>เทศบาลเมืองด้วงช้างขอเชิญชวนทุกท่านร่วมงานประเพณีลอยกระทง ประจำปี พ.ศ.2568 ณ บริเวณท่าน้ำเทศบาลเมืองด้วงช้าง</p>
+                        <p class="activity-date">...</p>
+                    </div>
+                    <div class="activity-card">
+                        <div class="activity-icon"><i class="fas fa-globe"></i></div>
+                        <h3>โครงการพัฒนาศักยภาพสถานีเด็กและเยาวชนต้นแบบของชาติชาย...</h3>
+                        <p>วันเสาร์ที่ 11 พฤศจิกายน 2567 รมว.ศึกษาธิการ มอบหมายให้ ก.ศึกษาธิการ ร่วมกับหน่วยงานที่เกี่ยวข้อง จัดโครงการพัฒนาศักยภาพสถานีเด็กและเยาวชนต้นแบบของชาติชายไทย</p>
+                        <p class="activity-date">วันที่ 11 พฤศจิกายน 2567</p>
+                    </div>
+                    <div class="activity-card">
+                        <div class="activity-icon"><i class="fas fa-globe"></i></div>
+                        <h3>ประเมินพัฒนาการเด็กปฐมวัย</h3>
+                        <p>วันที่ 11 กันยายน 2567 ระหว่างเวลา 08.30-12.00 น. กองการศึกษา ศาสนาและวัฒนธรรม ร่วมกับศูนย์พัฒนาเด็กเล็กเทศบาลเมืองด้วงช้าง จัดกิจกรรมประเมินพัฒนาการเด็กปฐมวัย</p>
+                        <p class="activity-date">วันที่ 11 กันยายน 2567</p>
+                    </div>
+                    <div class="activity-card">
+                        <div class="activity-icon"><i class="fas fa-globe"></i></div>
+                        <h3>กิจกรรมป้องกันและลดอุบัติเหตุทางถนน เทศกาลสงกรานต์...</h3>
+                        <p>วันศุกร์ที่ 11 เมษายน 2568 เทศบาลเมืองด้วงช้างและกองอุบัติเหตุทางถนน ร่วมจัดกิจกรรมป้องกันและลดอุบัติเหตุทางถนน เทศกาลสงกรานต์ ประจำปี ...</p>
+                        <p class="activity-date">วันศุกร์ที่ 11 เมษายน 2568</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="activity-card">
-            <div class="activity-icon"><i class="fas fa-globe"></i></div>
-            <h3>เชิญชวนเข้าร่วมกิจกรรม วันเด็กแห่งชาติ</h3>
-            <p>วันเสาร์ที่ 11 มกราคม พ.ศ.2568 เทศบาลเมืองด้วงช้างขอเชิญชวน น้องๆ หนูๆ และผู้ปกครองเข้าร่วมงานวันเด็กแห่งชาติ ประจำปี ...</p>
-            <p class="activity-date">วันที่ 11 มกราคม พ.ศ.2568</p>
+    </section>
+
+    <main class="main-content">
+        <section id="outstanding-works" class="content-block">
+            <h2 class="content-block-title">แนะนำผลงานดีเด่นของหน่วยงาน </h2>
+            <div class="works-grid">
+                <div class="work-item"><img src="images/images/banner/bnn-perform1.png" alt=""></div>
+                <div class="work-item"><img src="images/images/banner/bnn-perform2.png" alt=""></div>
+                <div class="work-item"><img src="images/images/banner/bnn-perform3.png" alt=""></div>
+                <div class="work-item"><img src="images/images/banner/bnn-perform4.png" alt=""></div>
+                <div class="work-item"><img src="images/images/banner/bnn-perform5.png" alt=""></div>
+                <div class="work-item"><img src="images/images/banner/bnn-perform6.png" alt=""></div>
+                <div class="work-item"><img src="images/images/banner/bnn-perform7.png" alt=""></div>
+                <div class="work-item"><img src="images/images/banner/bnn-perform8.png" alt=""></div>
+            </div>
+        </section>
+
+        <section id="info-systems" class="content-block">
+            <h2 class="content-block-title">ระบบสารสนเทศ</h2>
+            <div class="info-sys-grid">
+                <div class="info-sys-item"><img src="images/images/banner/bnn-information2.png" alt=""></div>
+                <div class="info-sys-item"><img src="images/images/banner/bnn-information3.png" alt=""></div>
+                <div class="info-sys-item"><img src="images/images/banner/bnn-information4.png" alt=""></div>
+                <div class="info-sys-item"><img src="images/images/banner/bnn-information5.png" alt=""></div>
+            </div>
+        </section>
+
+        <section id="visitor-stats" class="content-block-alt">
+            <h2 class="content-block-title-light">จำนวนผู้เข้าชมเว็บไซต์ number of website visitors<img src="" alt="" class="title-icon-small"></h2>
+            <div class="stats-boxes">
+                <div><span>1</span><p>วันนี้</p></div>
+                <div><span>1</span><p>เมื่อวาน</p></div>
+                <div><span>1</span><p>สัปดาห์นี้</p></div>
+                <div><span>8</span><p>เดือนนี้</p></div>
+                <div><span>52</span><p>ปีนี้</p></div>
+                <div><span>502</span><p>ทั้งหมด</p></div>
+            </div>
+        </section>
+
+       <div class="page-wrapper">
+        <header class="site-header-v2">
+            <div class="container header-content-v2">
+                <div class="title-area">
+                    <h1 class="main-site-title">ประชาสัมพันธ์กองคลัง</h1>
+                </div>
+                <div class="logo-area">
+                    <img src="images/images/icon/ico-newfilealert3.png" alt="Logo MWA" class="header-logo-img">
+                    <p class="logo-tagline">ภายใต้ทุกบาทค่าน้ำ พัฒนาท้องถิ่นเรา • ก</p>
+                </div>
+            </div>
+        </header>
+
+        <main class="site-main-content-v2">
+            <section id="tax-collection-info" class="tax-collection-section">
+                <div class="container">
+                    <div class="tax-main-grid">
+                        <div class="tax-left-panel">
+                            <h2 class="tax-panel-title">อัตราการจัดเก็บภาษีที่ดินและสิ่งปลูกสร้าง</h2>
+                            <div class="tax-cards-container">
+                                <article class="tax-card tax-card-agriculture">
+                                    <div class="tax-card-icon">[🚜]</div>
+                                    <h3 class="tax-card-title">ที่ดินเพื่อการเกษตร</h3>
+                                    <p>รายละเอียดเกี่ยวกับการจัดเก็บภาษีสำหรับที่ดินที่ใช้ในการเกษตรกรรม</p>
+                                </article>
+                                <article class="tax-card tax-card-residential">
+                                    <div class="tax-card-icon">[🏠]</div>
+                                    <h3 class="tax-card-title">ที่ดินเพื่ออยู่อาศัย</h3>
+                                    <p>อัตราภาษีสำหรับที่ดินและสิ่งปลูกสร้างที่ใช้เป็นที่อยู่อาศัย</p>
+                                </article>
+                                <article class="tax-card tax-card-commercial">
+                                    <div class="tax-card-icon">[🏢]</div>
+                                    <h3 class="tax-card-title">ที่ดินเพื่อพาณิชยกรรม</h3>
+                                    <p>การจัดเก็บภาษีสำหรับที่ดินที่ใช้ในกิจกรรมเชิงพาณิชย์</p>
+                                </article>
+                                <article class="tax-card tax-card-vacant">
+                                    <div class="tax-card-icon">[🌳]</div>
+                                    <h3 class="tax-card-title">ที่ดินรกร้างว่างเปล่า</h3>
+                                    <p>อัตราภาษีสำหรับที่ดินที่ไม่ได้ใช้ประโยชน์หรือรกร้างว่างเปล่า</p>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="tax-right-panel">
+                            <div class="contact-finance-box">
+                                <div class="contact-finance-icon">[🏦]</div>
+                                <h3 class="contact-finance-title">ติดต่อ กองคลัง</h3>
+                                <p>เทศบาลเมืองคัวอย่าง 50</p>
+                                <p class="phone-number">0-0000-0000</p>
+                            </div>
+                            <div class="payment-info-box">
+                                <h3 class="payment-info-title">ชำระภาษี และค่าธรรมเนียมต่างๆ</h3>
+                                <p>ธนาคารกรุงไทย (ทุกสาขา)</p>
+                                <p class="account-info">เทศบาลเมืองคัวอย่าง 50</p>
+                                <p class="account-number">000-0-000000-0</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <section id="procurement-focused" class="procurement-section-focused">
+            <div class="container">
+                <h2 class="section-main-title">ประกาศจัดซื้อจัดจ้าง</h2>
+                <p class="section-subtitle">เทศบาลเมืองตัวอย่าง 50</p>
+
+                <nav class="procurement-tabs-focused">
+                    <button class="tab-button-focused active">ข่าวจัดซื้อจัดจ้างจาก e-GP</button>
+                    <button class="tab-button-focused">ข่าวจัดซื้อจัดจ้าง</button>
+                    <button class="tab-button-focused">แผนการจัดหาพัสดุ</button>
+                    <button class="tab-button-focused">สรุปผลฯ รายเดือน/ไตรมาส/ปี</button>
+                </nav>
+
+                <div class="procurement-list-focused">
+                    <article class="procurement-item-focused">
+                        <p class="item-main-text">จ้างซ่อมแซมถนนลาดยางแอสฟัลท์ติกคอนกรีต หมู่ที่ 21 บ้านโนนชาด บริเวณทางเข้า-ออกโรงเรียนอนุบาล ทต.โนนชาด ถึงทางหลวงแผ่นดินหมายเลข 2065 โดยวิธีเฉพาะเจาะจง</p>
+                        <div class="item-details-link">
+                            ประกาศรายชื่อผู้ผ่านการเสนอราคา / ประกาศผู้ได้รับการคัดเลือก
+                        </div>
+                        <div class="item-meta">
+                            <span class="meta-icon">📄</span> <span class="meta-date">27 พ.ค. 2566</span>
+                        </div>
+                    </article>
+
+                    <article class="procurement-item-focused">
+                        <p class="item-main-text">ซื้อเครื่องคอมพิวเตอร์ All in one สำหรับสำนักงาน จำนวน 2 เครื่อง โดยวิธีเฉพาะเจาะจง</p>
+                        <div class="item-details-link">
+                            ประกาศรายชื่อผู้ผ่านการเสนอราคา / ประกาศผู้ได้รับการคัดเลือก
+                        </div>
+                        <div class="item-meta">
+                            <span class="meta-icon">📄</span>
+                            <span class="meta-date">27 พ.ค. 2566</span>
+                        </div>
+                    </article>
+
+                    <article class="procurement-item-focused">
+                        <p class="item-main-text">จ้างก่อสร้างถนนคอนกรีตเสริมเหล็ก หมู่ที่ 2 บ้านโคกสง่า ซอย 2/2 บ้านนางหนูพักตร์ ไชยศรีสุข โดยวิธีเฉพาะเจาะจง</p>
+                        <div class="item-details-link">
+                            ประกาศรายชื่อผู้ผ่านการเสนอราคา / ประกาศผู้ได้รับการคัดเลือก
+                        </div>
+                        <div class="item-meta">
+                            <span class="meta-icon">📄</span>
+                            <span class="meta-date">26 พ.ค. 2566</span>
+                        </div>
+                    </article>
+                     <article class="procurement-item-focused">
+                        <p class="item-main-text">จ้างก่อสร้างถนนคอนกรีตเสริมเหล็ก หมู่ที่ 25 บ้านใหม่ชัยมงคล บริเวณบ้านนายทองเอก ถึงบริเวณบ้านนางสมร โดยวิธีเฉพาะเจาะจง</p>
+                        <div class="item-details-link">
+                           ประกาศรายชื่อผู้ผ่านการเสนอราคา / ประกาศผู้ได้รับการคัดเลือก
+                        </div>
+                        <div class="item-meta">
+                            <span class="meta-icon">📄</span>
+                            <span class="meta-date">26 พ.ค. 2566</span>
+                        </div>
+                    </article>
+                     <article class="procurement-item-focused">
+                        <p class="item-main-text">จ้างก่อสร้างถนนคอนกรีตเสริมเหล็ก หมู่ที่ 2 บ้านโคกสง่า ซอยข้างโอเชี่ยน ถึงซอยวีระศักดิ์ โดยวิธีเฉพาะเจาะจง</p>
+                        <div class="item-details-link">
+                           ประกาศรายชื่อผู้ผ่านการเสนอราคา / ประกาศผู้ได้รับการคัดเลือก
+                        </div>
+                        <div class="item-meta">
+                            <span class="meta-icon">📄</span>
+                            <span class="meta-date">25 พ.ค. 2566</span>
+                        </div>
+                    </article>
+                     <article class="procurement-item-focused">
+                        <p class="item-main-text">จ้างก่อสร้างถนนคอนกรีตเสริมเหล็ก หมู่ที่ 2 บ้านโคกสง่า ซอย 15/2 บริเวณบ้านนายสิทธิชัย ศิริเวช ถึงบ้านนางสาวนริศรา (ต่อจากเส้นเดิม) โดยวิธีเฉพาะเจาะจง</p>
+                        <div class="item-details-link">
+                           ประกาศรายชื่อผู้ผ่านการเสนอราคา / ประกาศผู้ได้รับการคัดเลือก
+                        </div>
+                        <div class="item-meta">
+                            <span class="meta-icon">📄</span>
+                            <span class="meta-date">25 พ.ค. 2566</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <div class="full-width-banner-image" style="background-image: url('placeholder-paddy-field-large.jpg');">
         </div>
-        <div class="activity-card">
-            <div class="activity-icon"><i class="fas fa-globe"></i></div>
-            <h3>กองสาธารณสุขและสิ่งแวดล้อม ออกตรวจคัดกรองป้องก้นการ...</h3>
-            <p>เมื่อวันที่ 23 มิถุนายน 2563 กองสาธารณสุขและสิ่งแวดล้อม ลงพื้นที่ออกตรวจคัดกรองป้องกันการติดเชื้อไวรัสโคโรนา 2019 (COVID-19)...</p>
-            <p class="activity-date">วันที่ 23 มิถุนายน 2563</p>
+
+                <section id="tourist-info-focused" class="tourist-info-section-focused">
+                    <div class="container tourist-container-focused">
+                        <div class="attraction-content-wrapper">
+                            <h2 class="attraction-main-title">แหล่งท่องเที่ยว</h2>
+                            <div class="attraction-display">
+                                <div class="attraction-screen">
+                                    <img src="images/images/bgs-travel.png" alt="Globe Logo" class="attraction-logo-img">
+                                    <p class="screen-text">ศูนย์บริการข้อมูลท่องเที่ยว</p>
+                                </div>
+                            </div>
+                            <button class="attraction-more-button">More</button>
+                        </div>
+                    </div>
+                </section>
+
+
+        <div class="lower-content-block">
+            <header class="site-header-participation">
+                <div class="container header-flex">
+                    <div class="header-icon">📢</div>
+                    <div class="header-text">
+                        <h1>ประชาสัมพันธ์ แนะนําการมีส่วนร่วม</h1>
+                        <p>บำการบริการ แจ้งเบาะแส หรือร้องเรียน โดยข้อมูลของท่านจะถูกเก็บเป็นความลับ</p>
+                    </div>
+                </div>
+            </header>
+
+            <main class="main-content-grid-participation container">
+                <aside class="left-column-participation">
+                    <section class="card pr-box-municipal">
+                        <div class="pr-box-header"><span class="epa-logo-placeholder">[EPA]</span><h2>ประชาสัมพันธ์ เทศบาลเมืองตัวอย่าง 5.0</h2></div>
+                        <p class="pr-box-subtitle">เมื่อการส่องสว่างปลายทางไม่ใช่นโยบายหลักฯ</p>
+                        <div class="pr-box-content"><div class="qr-code-area"><div class="qr-placeholder">[QR]</div><p>สแกน QR CODE ที่นี่</p></div><div class="traffic-banner-placeholder"><img src="https://via.placeholder.com/120x80?text=Traffic" alt="Traffic Banner"></div></div>
+                    </section>
+                    <section class="card emergency-box">
+                        <div class="emergency-icon-area"><img src="images/images/banner/bnn-ems.png" alt="EMS Icon" class="ems-person-img"></div>
+                        <div class="emergency-text-content"><div class="emergency-number">1669</div><p class="emergency-tagline">บริการการแพทย์ฉุกเฉิน 24 ชั่วโมง</p><p class="emergency-location">ทม. ตัวอย่าง 5.0</p><p class="emergency-phone">โทร 0-0000-0000</p></div>
+                    </section>
+                    <section class="card opinion-poll-box">
+                        <span class="vote-label">VOTE</span><h3>แบบสำรวจความคิดเห็น</h3><p class="poll-intro">ท่านมีความพึงพอใจต่อการให้บริการฯ</p>
+                        <form class="poll-form"><label><input type="radio" name="poll" value="s"> พึงพอใจมากที่สุด</label><label><input type="radio" name="poll" value="n"> พึงพอใจปานกลาง</label><button type="submit" class="submit-poll-button">ส่งข้อมูล</button></form>
+                    </section>
+                </aside>
+
+                <section class="center-column-participation">
+                    <article class="card social-media-post">
+                        <div class="post-header"><img src="https://via.placeholder.com/40x40?text=Meta" alt="Meta Logo" class="meta-logo"><div class="post-author-info"><strong>Meta</strong> <span class="post-meta-text">shared a video.</span></div></div>
+                        <div class="post-video-placeholder"><img src="https://via.placeholder.com/400x225?text=Video" alt="Video"><div class="play-button-overlay">▶</div></div>
+                        <div class="post-caption"><p>Sharing an easy drawing tutorial...</p></div>
+                        <div class="post-actions"><span>👍 Like</span><span>💬 Comment</span><span>↪️ Share</span></div>
+                    </article>
+                </section>
+
+                <aside class="right-column-participation">
+                    <section class="card oss-box"><div class="oss-icon-placeholder">[OSS]</div><div class="oss-text"><p>ศูนย์กลางบริการร่วมฯ</p><strong>One Stop Service : OSS</strong></div></section>
+                    <section class="info-links-scan">
+                        <div class="info-link-item fb-link"><img src="images/images/" alt="FB" class="info-link-icon"><span>ติดต่อ/สนทนา</span> <span class="scan-label">SCAN</span></div>
+                        <div class="info-link-item survey-link"><span class="info-link-icon-placeholder">📝</span><span>แบบสอบถามความพึงพอใจ</span> <span class="scan-label">SCAN</span></div>
+                        <div class="info-link-item results-link"><span class="info-link-icon-placeholder">📊</span><span>ผลการสอบถามฯ</span> <span class="scan-label">SCAN</span></div>
+                        <div class="info-link-item comment-link"><span class="info-link-icon-placeholder">💬</span><span>แสดงความคิดเห็นฯ</span> <span class="scan-label">SCAN</span></div>
+                    </section>
+                    <section class="card related-sites-box">
+                        <h4>เว็บไซต์ระบบสารสนเทศที่เกี่ยวข้อง</h4>
+                        <ul class="sites-list"><li><img src="https://via.placeholder.com/80x30?text=PRD" alt="PRD"><span>กรมประชาสัมพันธ์</span></li><li><img src="https://via.placeholder.com/80x30?text=MOPH" alt="MOPH"><span>กระทรวงสาธารณสุข</span></li> </ul>
+                    </section>
+                </aside>
+            </main>
+
+
+        <section id="map-location" class="content-block">
+            <h2 class="content-block-title">แผนที่ตั้งเทศบาลเมืองตัวอย่าง <img src="images/images/icon/ico-travel.png" alt="icon" class="title-icon-small"></h2>
+            <div class="map-placeholder">
+                <img src="images/images/banner/map/สถจ.gif" alt="แผนที่เทศบาลเมืองตัวอย่าง">
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>เทศบาลเมืองตัวอย่าง</h4>
+                <p>เลขที่ 99 หมู่ 9 ถนนประชาอุทิศ<br>ตำบลในเมือง อำเภอเมือง<br>จังหวัดตัวอย่าง 12345</p>
+            </div>
+            <div class="footer-column">
+                <h4>ติดต่อสอบถาม</h4>
+                <p><img src="placeholder-phone-icon-footer.png" alt=""> โทรศัพท์: 0-1234-5678</p>
+                <p><img src="placeholder-fax-icon-footer.png" alt=""> โทรสาร: 0-1234-5679</p>
+                <p><img src="placeholder-email-icon-footer.png" alt=""> อีเมล: contact@example.com</p>
+                <p><img src="placeholder-website-icon-footer.png" alt=""> เว็บไซต์: www.example.com</p>
+            </div>
+            <div class="footer-column">
+                <h4>เวลาทำการ</h4>
+                <p>วันจันทร์ - วันศุกร์<br>เวลา 08.30 - 16.30 น.</p>
+                <p><strong>หยุดพักกลางวัน</strong><br>เวลา 12.00 - 13.00 น.</p>
+                <p>(หยุดวันเสาร์ - อาทิตย์ และวันหยุดนักขัตฤกษ์)</p>
+            </div>
+            <div class="footer-column">
+                <h4>บริการข้อมูล</h4>
+                <ul>
+                    <li><a href="#">หน้าแรก</a></li>
+                    <li><a href="#">ติดต่อเทศบาล</a></li>
+                    <li><a href="#">แผนผังเว็บไซต์</a></li>
+                    <li><a href="#">สถิติเว็บไซต์</a></li>
+                    <li><a href="#">ผู้ดูแลระบบ</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="activity-card">
-            <div class="activity-icon"><i class="fas fa-globe"></i></div>
-            <h3>การประเมินการจัดทำแผนพัฒนาคุณธรรมประจำปี พ.ศ.2568</h3>
-            <p>วันจันทร์ที่ 28 พฤศจิกายน พ.ศ.2567 ประเมินผลการจัดทำแผนพัฒนาคุณธรรม ประจำปี พ.ศ.2568 ณ ห้องประชุมเทศบาลเมืองด้วงช้าง</p>
-            <p class="activity-date">วันจันทร์ที่ 28 พฤศจิกายน พ.ศ.2567</p>
+        <div class="footer-bottom">
+            <p>© สงวนลิขสิทธิ์ พ.ศ. 2568 เทศบาลเมืองตัวอย่าง</p>
+            <p>พัฒนาโดย [ชื่อผู้พัฒนา/หน่วยงาน]</p>
         </div>
-        <div class="activity-card">
-            <div class="activity-icon"><i class="fas fa-globe"></i></div>
-            <h3>ประชุมและพาโครงการประเพณีลอยกระทง</h3>
-            <p>วันศุกร์ที่ 22 พฤศจิกายน พ.ศ.2568 ประชุมและหารือโครงการประเพณีลอยกระทง ประจำปี พ.ศ.2568 ณ ห้องประชุมเทศบาลเมืองด้วงช้าง</p>
-            <p class="activity-date">วันศุกร์ที่ 22 พฤศจิกายน พ.ศ.2568</p>
-        </div>
-        <div class="activity-card">
-            <div class="activity-icon"><i class="fas fa-globe"></i></div>
-            <h3>ประเพณีลอยกระทง</h3>
-            <p>เทศบาลเมืองด้วงช้างขอเชิญชวนทุกท่านร่วมงานประเพณีลอยกระทง ประจำปี พ.ศ.2568 ณ บริเวณท่าน้ำเทศบาลเมืองด้วงช้าง</p>
-            <p class="activity-date">...</p>
-        </div>
-        <div class="activity-card">
-            <div class="activity-icon"><i class="fas fa-globe"></i></div>
-            <h3>โครงการพัฒนาศักยภาพสถานีเด็กและเยาวชนต้นแบบของชาติชาย...</h3>
-            <p>วันเสาร์ที่ 11 พฤศจิกายน 2567 รมว.ศึกษาธิการ มอบหมายให้ ก.ศึกษาธิการ ร่วมกับหน่วยงานที่เกี่ยวข้อง จัดโครงการพัฒนาศักยภาพสถานีเด็กและเยาวชนต้นแบบของชาติชายไทย</p>
-            <p class="activity-date">วันที่ 11 พฤศจิกายน 2567</p>
-        </div>
-        <div class="activity-card">
-            <div class="activity-icon"><i class="fas fa-globe"></i></div>
-            <h3>ประเมินพัฒนาการเด็กปฐมวัย</h3>
-            <p>วันที่ 11 กันยายน 2567 ระหว่างเวลา 08.30-12.00 น. กองการศึกษา ศาสนาและวัฒนธรรม ร่วมกับศูนย์พัฒนาเด็กเล็กเทศบาลเมืองด้วงช้าง จัดกิจกรรมประเมินพัฒนาการเด็กปฐมวัย</p>
-            <p class="activity-date">วันที่ 11 กันยายน 2567</p>
-        </div>
-        <div class="activity-card">
-            <div class="activity-icon"><i class="fas fa-globe"></i></div>
-            <h3>กิจกรรมป้องกันและลดอุบัติเหตุทางถนน เทศกาลสงกรานต์...</h3>
-            <p>วันศุกร์ที่ 11 เมษายน 2568 เทศบาลเมืองด้วงช้างและกองอุบัติเหตุทางถนน ร่วมจัดกิจกรรมป้องกันและลดอุบัติเหตุทางถนน เทศกาลสงกรานต์ ประจำปี ...</p>
-            <p class="activity-date">วันศุกร์ที่ 11 เมษายน 2568</p>
-        </div>
-    </div>
-</div>
-        </div>
+
         
-    </section>
+    </footer>
+    </div> </body>
 
-    <section class="footer-section">
-        <div class="container footer-cards">
-            <a href="#" class="footer-card">
-                <div class="icon"><i class="fas fa-newspaper"></i></div>
-                <h4>จดหมายข่าว</h4>
-                <p>สมัครสมาชิกเพื่อรับข่าวสาร</p>
-                <span class="click-button">Click</span>
-            </a>
-            <a href="#" class="footer-card">
-                <div class="icon"><i class="fas fa-trophy"></i></div>
-                <h4>รางวัล และความภาคภูมิใจ</h4>
-                <span class="click-button">Click</span>
-            </a>
-            <a href="#" class="footer-card">
-                <div class="icon"><i class="fas fa-star"></i></div>
-                <h4>ITA</h4>
-                <span class="click-button">Click</span>
-            </a>
-            <a href="#" class="footer-card">
-                <div class="icon"><i class="fas fa-chart-bar"></i></div>
-                <h4>การดำเนินงาน สู่สังคมสุขภาวะ</h4>
-                <span class="click-button">Click</span>
-            </a>
-        </div>
-    </section>
-
-</body>
+    
 </html>

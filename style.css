@@ -1272,23 +1272,30 @@ ul {
 /* -------------------------------------------------------------
 13. ส่วนท้ายของหน้าเว็บ (Footer)
 ------------------------------------------------------------- */
-.main-content { flex-grow: 1; } /* นี่สำหรับ wrapper เนื้อหาหลัก อาจต้องปรับตาม HTML ทั้งหมด */
 
 .content-block { /* สไตล์บล็อกเนื้อหาทั่วไป */
-    background-color: #ffffff;
-    padding: 25px;
+    background-color: #f7f3f3;
+    padding: 30px;                 
     margin: 20px;
-    margin-bottom: 25px;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    max-width: 1600px; /* กำหนดความกว้างสูงสุด */
+}
+.content-block-title { /* สำหรับหัวข้อในบล็อกเนื้อหา */
+    font-weight: 700;
+    color: #0d47a1; /* สีน้ำเงินเข้ม */
+    font-size: 1.8em;
+
 }
 .content-block-alt { /* สำหรับส่วนที่มีพื้นหลังสีเข้ม */
     background: linear-gradient(to right, #0d47a1, #1976d2);
     color: white;
     padding: 25px;
-    margin: 20px;
-    margin-bottom: 25px;
+    margin-top: 5px;    
+    margin-bottom: 5px;
     border-radius: 8px;
+    max-width: 1320px; /* กำหนดความกว้างสูงสุด */
+
 }
 
 
@@ -1328,10 +1335,10 @@ ul {
     margin-bottom: 0;
 }
 
+
 .stats-boxes {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: center;
     gap: 15px;
     margin-top: 10px;
 }
@@ -2072,6 +2079,10 @@ ul {
     }
 }
 
+.lower-content-block {
+    margin: 30px;
+}
+
 .container.header-content {
     margin-left: auto;
     margin-right: 0;
@@ -2110,4 +2121,19 @@ ul {
 .content-block {
     width: 1000px;
     margin: auto;
+}
+
+.attraction-more-button {
+    display: inline-block;
+    padding: 1px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 50px; /* รูปร่างเหมือนยาเม็ด */
+    transition: background-color 0.3s;
+}
+.attraction-more-button:hover {
+    background-color: #0056b3;
+    text-decoration: none;
 }

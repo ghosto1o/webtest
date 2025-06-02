@@ -26,17 +26,18 @@ body {
     box-sizing: border-box; /* ใช้ box-sizing เพื่อให้ padding และ border ไม่ทำให้ขนาดของ element เปลี่ยน */
     font-family: 'Sarabun', sans-serif;
     background-image:
-  radial-gradient(circle, #faf8f800 45%, rgb(30, 130, 223) 48%),
-  radial-gradient(ellipse farthest-corner, #1423fc 20%, #cf15cf 80%);
+    radial-gradient(circle, #faf8f800 45%, rgb(30, 130, 223) 48%),
+    radial-gradient(ellipse farthest-corner, #1423fc 20%, #cf15cf 80%);
     color: #333;
     line-height: 1.6; /* เพิ่มระยะห่างระหว่างบรรทัดเพื่อให้อ่านง่าย */
     
 }
 
-.container {
-    max-width: 1600px; /* ความกว้างสูงสุดของเนื้อหา */
-    margin: 0 auto; /* จัดให้อยู่กึ่งกลางหน้าจอ */
-    padding: 0 15px; /* Padding ด้านข้างเพื่อไม่ให้เนื้อหาชิดขอบจอเกินไป */
+.container, .banner-content, .header-content, .main-content-grid, .content-body, .site-header-v2, .page-wrapper, .main-content-grid-participation, .tourist-container-focused, .content-block, .content-block-alt, .works-grid, .info-sys-grid, .stats-boxes, .map-placeholder {
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 a {
@@ -108,6 +109,8 @@ ul {
     flex-wrap: wrap; /* ให้เมนูขึ้นบรรทัดใหม่เมื่อหน้าจอเล็ก */
     max-width: 1600px; /* ความกว้างสูงสุดของเนื้อหา */
     margin: 0 auto; /* จัดให้อยู่กึ่งกลางหน้าจอ */ 
+    margin-left: auto;
+    margin-right: 0;
 }
 
 .logo {
@@ -119,8 +122,9 @@ ul {
 
 .logo img {
     width: 80px; /* ขนาดรูปภาพโลโก้ */
-    height: 80px; /* ขนาดรูปภาพโลโก้ */
-    border-radius: 15px; /* ทำให้ขอบมนเล็กน้อย */
+    height: 80px; /* ขนาดรูปภาพโลโก้ */  
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.25); /* เพิ่มเงาให้โลโก้ */
+    border-radius: 50px;
 }
 
 .logo-text {
@@ -187,18 +191,21 @@ ul {
 .banner-content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap; /* ให้เมนูขึ้นบรรทัดใหม่เมื่อหน้าจอเล็ก */
-    max-width: 1600px; /* Match container width */
-    margin: 0 auto; /* จัดให้อยู่กึ่งกลางหน้าจอ */
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .banner-logo {
     display: flex;
     align-items: center;
-    gap: 15px; /* ระยะห่างระหว่างโลโก้และข้อความ */
-    color: #007bff; /* สีน้ำเงินสำหรับข้อความโลโก้ */
+    gap: 15px;
+    color: #007bff;
+    justify-content: flex-end;
+    margin-left: auto;
 }
+
 .banner-logo img {
     width: 70px; /* ขนาดรูปภาพโลโก้ */
     height: 50px; /* ขนาดรูปภาพโลโก้ */
@@ -359,6 +366,7 @@ ul {
     flex-wrap: wrap; /* ให้ข้อความขึ้นบรรทัดใหม่เมื่อหน้าจอเล็ก */
     gap: 10px; /* ระยะห่างระหว่างข้อความ */
     line-height: 5px; /* ลดระยะห่างระหว่างบรรทัด */
+
     
 }
 
@@ -374,6 +382,7 @@ ul {
     font-size: 1.6em;
     border-radius: 5px;
     margin-bottom: 20px;
+
 }
 
 .video-description {
@@ -384,17 +393,17 @@ ul {
     background-repeat: no-repeat; /* ไม่ให้รูปภาพซ้ำ */
     text-align: center;
     font-size: 1em;
-    color: #f5f3f3;
+    color: #f3f5f3;
     margin-bottom: 15px;
     cursor: pointer; /* เปลี่ยนเคอร์เซอร์เมื่อวางเมาส์ */
     transition:calc(0.3s ease); /* เพิ่ม Transition เพื่อความสวยงาม */
     white-space: nowrap; /* ไม่ให้ข้อความแตกบรรทัด */
     line-height: 30px; /* จัดระยะห่างระหว่างบรรทัด */
+    border-radius: 6px;
 }
 
 .video-description:hover {
     color: #101111; /* เปลี่ยนสีเมื่อ Hover */
-    text-decoration: underline; /* ขีดเส้นใต้เมื่อ Hover */
 }
 
 .video-controls {
@@ -406,7 +415,7 @@ ul {
 
 .video-control-button {
     background-color: #f0f2f5;
-    border: 1px solid #ddd;
+    border: 1px solid #141313;
     padding: 5px 25px;
     border-radius: 25px;
     font-size: 0.9em;
@@ -1268,6 +1277,7 @@ ul {
 .content-block { /* สไตล์บล็อกเนื้อหาทั่วไป */
     background-color: #ffffff;
     padding: 25px;
+    margin: 20px;
     margin-bottom: 25px;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.07);
@@ -1276,6 +1286,7 @@ ul {
     background: linear-gradient(to right, #0d47a1, #1976d2);
     color: white;
     padding: 25px;
+    margin: 20px;
     margin-bottom: 25px;
     border-radius: 8px;
 }
@@ -1371,6 +1382,7 @@ ul {
     flex-direction: column;
     align-items: flex-end; /* Align logo and tagline to the right */
     min-width: 220px; /* Ensure some space for logo area */
+    margin-right: 30px;
 }
 
 .header-logo-img {
@@ -1401,6 +1413,7 @@ ul {
     color: #fff;
     padding: 20px;
     border-radius: 10px;
+    margin: 20px;
 }
 
 .tax-panel-title {
@@ -1454,6 +1467,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin: 30px;
 }
 
 .contact-finance-box, .payment-info-box {
@@ -1554,6 +1568,9 @@ ul {
 .procurement-list-focused {
     display: grid;
     gap: 20px; /* Space between items */
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .procurement-item-focused {
@@ -2053,4 +2070,44 @@ ul {
         gap: 12px;
         padding: 14px;
     }
+}
+
+.container.header-content {
+    margin-left: auto;
+    margin-right: 0;
+    /* ลบ margin: 0 auto; ออก */
+}
+
+.works-grid, .info-sys-grid, .stats-boxes {
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.map-placeholder {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.map-placeholder img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.featured-video iframe {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18), 0 1.5px 6px rgba(0,0,0,0.12);
+    border-radius: 8px;
+    border: 5px solid #e0f7fa;
+}
+
+.content-block {
+    width: 1000px;
+    margin: auto;
 }

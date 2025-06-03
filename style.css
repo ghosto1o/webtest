@@ -181,7 +181,7 @@ ul {
     background-image: url(images/images/bgl-slide.jpg); /* รูปภาพ Placeholder */
     background-size: cover;
     background-position: center;
-    height: 700px; /* ความสูงของแบนเนอร์ */
+    height: 500px; /* ความสูงของแบนเนอร์ */
     display: flex;
     align-items: end;
     justify-content:center;

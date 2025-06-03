@@ -33,12 +33,6 @@ body {
     
 }
 
-.container, .banner-content, .header-content, .main-content-grid, .content-body, .site-header-v2, .page-wrapper, .main-content-grid-participation, .tourist-container-focused, .content-block, .content-block-alt, .works-grid, .info-sys-grid, .stats-boxes, .map-placeholder {
-    max-width: 1366px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
 
 a {
     text-decoration: none; /* ไม่มีขีดเส้นใต้ลิงก์ */
@@ -69,6 +63,7 @@ ul {
     justify-content: space-between; /* จัดเนื้อหาชิดซ้ายและขวา */
     border-radius: 30px 0 0 30px; /* ทำให้ขอบมนเฉพาะด้านซ้าย */
     display: flex; /* ใช้ Flexbox เพื่อจัดการเลย์เอาต์ */
+    
 }
 
 .top-bar-content {
@@ -99,6 +94,13 @@ ul {
     padding: 25px; /* Padding ด้านบนและล่าง */
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* เพิ่มเงาให้ดูมีมิติ */
     outline: #0730e7 solid 2px; /* เส้นขอบสีน้ำเงินเข้ม */
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 20px; /* Padding ด้านบนและล่าง */
+    margin-bottom: 5px;
+    border-radius: 5px;
 
 }
 
@@ -108,7 +110,7 @@ ul {
     justify-content: space-between;
     flex-wrap: wrap; /* ให้เมนูขึ้นบรรทัดใหม่เมื่อหน้าจอเล็ก */
     max-width: 1600px; /* ความกว้างสูงสุดของเนื้อหา */
-    margin: 0 auto; /* จัดให้อยู่กึ่งกลางหน้าจอ */ 
+    margin: auto; /* จัดให้อยู่กึ่งกลางหน้าจอ */ 
     margin-left: auto;
     margin-right: 0;
 }
@@ -185,7 +187,15 @@ ul {
     justify-content:center;
     color: white;
     text-shadow: 2px 2px 6px rgba(0,0,0,0.6); /* เพิ่มเงาให้ข้อความอ่านง่ายบนรูปภาพ */
-    margin-bottom: 0px; /* ระยะห่างด้านล่าง */
+    margin-bottom: 5px; /* ระยะห่างด้านล่าง */
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 20px; /* Padding ด้านบนและล่าง */
+    border-radius: 5px;
+
+    
     
 }
 .banner-content {
@@ -193,7 +203,7 @@ ul {
     align-items: center;
     justify-content: flex-end;
     flex-wrap: wrap;
-    max-width: 1600px;
+    max-width: 1366px;
     margin: 0 auto;
 }
 
@@ -262,9 +272,11 @@ ul {
 6. ส่วนโครงสร้างเนื้อหาหลัก (การ์ดโปรไฟล์และวิดีโอแนะนำ)
 ------------------------------------------------------------- */
 
-.main-content-grid {
-    max-width: 100%;    /* ความกว้างสูงสุดของเนื้อหา */    
-    margin: 0 auto; /* จัดให้อยู่กึ่งกลางหน้าจอ */ 
+.main-content-grid { 
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr; /* แบ่งเป็น 3 คอลัมน์: เล็ก กลาง ใหญ่ */
     gap: 50px; /* ระยะห่างระหว่างคอลัมน์ */
@@ -272,10 +284,14 @@ ul {
     background-size: cover; /* ปรับขนาดรูปภาพให้เต็มพื้นที่ */
     background-position: center; /* จัดตำแหน่งรูปภาพให้อยู่กึ่งกลาง */
     background-repeat: no-repeat; /* ไม่ให้รูปภาพซ้ำ */
-    padding: 50px 0; /* Padding ด้านบนและล่าง */
     align-items: center;    /* จัดให้อยู่กึ่งกลางแนวตั้ง */
     justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
-    margin-bottom: 20px; /* ระยะห่างด้านล่าง */
+    margin-bottom: 5px; /* ระยะห่างด้านล่าง */
+    margin-top: 5px;
+    padding: 20px; /* Padding ด้านบนและล่าง */
+    border-radius: 5px;
+
+
 }
 
 .profile-card {
@@ -459,7 +475,6 @@ ul {
 }
 .e-service-section {
     font-family: 'Sarabun', Arial, sans-serif; /* แนะนำฟอนต์ไทย Sarabun หรือใช้ font-family ที่เหมาะสม */
-    margin: 0;
     background-image: url(images/images/bgl-main1.jpg); /* รูปภาพพื้นหลัง */
     background-size: cover; /* ปรับขนาดรูปภาพให้เต็มพื้นที่ */
     background-position: center; /* จัดตำแหน่งรูปภาพให้อยู่กึ่งกลาง */
@@ -469,6 +484,11 @@ ul {
     margin-bottom: 5px;
     width: 100%; /* ให้เต็มความกว้าง */
     height: 500px; /* กำหนดความสูงคงที่ */
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+
 }
         .e-service-section .container {
             background-color: transparent; /* No background for the container */
@@ -711,16 +731,19 @@ ul {
 .content-body {
     display: grid;
     grid-template-columns: 1fr 3fr; /* Adjust ratios as needed */
-    gap: 30px;
-    margin-bottom: 40px;
+    gap: 20px;
+    max-width: 1405px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 5px;
 }
 
 .left-nav {
-    flex: 0 0 280px; /* ความกว้างคงที่สำหรับแถบนำทาง */
     background-color: white;
     padding: 15px;  /* Padding ด้านใน */
-    border-radius: 8px;
-    padding-bottom: 20px; /* เพิ่ม padding เพื่อให้เข้ากับเนื้อหาด้านขวา */
+    border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
     overflow: hidden; /* ซ่อนส่วนเกินจากการ์ด */
     height: fit-content; /* ปรับความสูงให้พอดีกับเนื้อหา */
@@ -732,8 +755,6 @@ ul {
     padding: 18px 25px;
     font-weight: 700;
     font-size: 1.25em;
-    margin-bottom: 0;
-    border-radius: 8px 8px 0 0; /* ขอบมนเฉพาะด้านบน */
 }
 
 .left-nav ul {
@@ -761,7 +782,7 @@ ul {
 .right-content {
     flex-grow: 1; /* ให้ขยายเต็มพื้นที่ที่เหลือ */
     background-color: white;
-    border-radius: 12px;
+    border-radius: 5px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.08);
     padding: 35px;
 }
@@ -780,12 +801,13 @@ ul {
     font-size: 1.05em;
     color: #555;
     margin-bottom: 25px;
+    
 }
 
 .gift-policy-card {
     background-image: url(images/images/bgl-gift.jpg); /* รูปภาพพื้นหลัง */
     border: 1px solid #ffecb3;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 25px;
     display: flex;
     align-items: flex-start;
@@ -1275,11 +1297,8 @@ ul {
 
 .content-block { /* สไตล์บล็อกเนื้อหาทั่วไป */
     background-color: #f7f3f3;
-    padding: 30px;                 
-    margin: 20px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    max-width: 1600px; /* กำหนดความกว้างสูงสุด */
+    padding: 30px;              
+       
 }
 .content-block-title { /* สำหรับหัวข้อในบล็อกเนื้อหา */
     font-weight: 700;
@@ -1290,12 +1309,13 @@ ul {
 .content-block-alt { /* สำหรับส่วนที่มีพื้นหลังสีเข้ม */
     background: linear-gradient(to right, #0d47a1, #1976d2);
     color: white;
-    padding: 25px;
-    margin-top: 5px;    
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 20px; /* Padding ด้านบนและล่าง */
+    border-radius: 5px;
     margin-bottom: 5px;
-    border-radius: 8px;
-    max-width: 1320px; /* กำหนดความกว้างสูงสุด */
-
 }
 
 
@@ -1358,6 +1378,12 @@ ul {
 
 .page-wrapper {
     background-color: #fff; /* White background for header and main content sections */
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 20px; /* Padding ด้านบนและล่าง */
+    border-radius: 5px;
 }
 
 /* Header v2 Styles */
@@ -2119,8 +2145,12 @@ ul {
 }
 
 .content-block {
-    width: 1000px;
-    margin: auto;
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 20px; /* Padding ด้านบนและล่าง */
+    border-radius: 5px;
 }
 
 .attraction-more-button {
@@ -2136,4 +2166,16 @@ ul {
 .attraction-more-button:hover {
     background-color: #0056b3;
     text-decoration: none;
+}
+
+.content-block-infomation {
+    background-color: #f7f3f3;
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 20px; /* Padding ด้านบนและล่าง */
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

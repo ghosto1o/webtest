@@ -105,7 +105,7 @@ ul {
     z-index: 1000;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    transition: background-color 0.3s ease;
+    
 }
 
 .header-content {
@@ -1320,6 +1320,7 @@ ul {
     padding: 20px; /* Padding ด้านบนและล่าง */
     border-radius: 5px;
     margin-bottom: 5px;
+    box-shadow: #000 0px 0px 2px;
 }
 
 
@@ -1388,6 +1389,7 @@ ul {
     width: 100%;
     padding: 20px; /* Padding ด้านบนและล่าง */
     border-radius: 5px;
+    box-shadow: #b3b1b1 0px 0px 2px;
 }
 
 /* Header v2 Styles */
@@ -2155,6 +2157,8 @@ ul {
     width: 100%;
     padding: 20px; /* Padding ด้านบนและล่าง */
     border-radius: 5px;
+    background-color: #f7f8f8;
+    box-shadow: #0000001a 0px 0px 20px;
 }
 
 .attraction-more-button {
@@ -2173,7 +2177,7 @@ ul {
 }
 
 .content-block-infomation {
-    background-color: #f7f3f3;
+    background-color: #ffffff;
     max-width: 1366px;
     margin-left: auto;
     margin-right: auto;
@@ -2182,4 +2186,5 @@ ul {
     border-radius: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
+    box-shadow: #0000001a 0px 0px 20px;
 }

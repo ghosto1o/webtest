@@ -26,8 +26,8 @@ body {
     box-sizing: border-box; /* ใช้ box-sizing เพื่อให้ padding และ border ไม่ทำให้ขนาดของ element เปลี่ยน */
     font-family: 'Sarabun', sans-serif;
     background-image:
-    radial-gradient(circle, #faf8f800 45%, rgb(30, 130, 223) 48%),
-    radial-gradient(ellipse farthest-corner, #1423fc 20%, #cf15cf 80%);
+    radial-gradient(circle, #f5eeee00 45%, rgb(245, 248, 250) 48%),
+    radial-gradient(ellipse farthest-corner, #f6f6fa 20%, #f1eef1 80%);
     color: #333;
     line-height: 1.6; /* เพิ่มระยะห่างระหว่างบรรทัดเพื่อให้อ่านง่าย */
     
@@ -90,10 +90,8 @@ ul {
 3. ส่วนหัวของเว็บ (Header)
 ------------------------------------------------------------- */
 .header {
-    background-color: rgb(238, 241, 243);
     padding: 25px; /* Padding ด้านบนและล่าง */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* เพิ่มเงาให้ดูมีมิติ */
-    outline: #0730e7 solid 2px; /* เส้นขอบสีน้ำเงินเข้ม */
+    outline: #c5c5c5 solid 1px; /* เส้นขอบสีน้ำเงินเข้ม */
     max-width: 1366px;
     margin-left: auto;
     margin-right: auto;
@@ -101,7 +99,13 @@ ul {
     padding: 20px; /* Padding ด้านบนและล่าง */
     margin-bottom: 5px;
     border-radius: 5px;
-
+    background-color: rgba(255, 255, 255, 0.8);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: background-color 0.3s ease;
 }
 
 .header-content {

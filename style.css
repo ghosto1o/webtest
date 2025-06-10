@@ -25,9 +25,7 @@ body {
     padding: 0;
     box-sizing: border-box; /* ใช้ box-sizing เพื่อให้ padding และ border ไม่ทำให้ขนาดของ element เปลี่ยน */
     font-family: 'Sarabun', sans-serif;
-    background-image:
-    radial-gradient(circle, #f5eeee00 45%, rgb(245, 248, 250) 48%),
-    radial-gradient(ellipse farthest-corner, #f6f6fa 20%, #f1eef1 80%);
+    background: rgb(240, 240, 240);    
     color: #333;
     line-height: 1.6; /* เพิ่มระยะห่างระหว่างบรรทัดเพื่อให้อ่านง่าย */
     
@@ -1389,7 +1387,7 @@ ul {
     width: 100%;
     padding: 20px; /* Padding ด้านบนและล่าง */
     border-radius: 5px;
-    box-shadow: #b3b1b1 0px 0px 2px;
+    box-shadow: #aaa8a8 0px 0px 2px;
 }
 
 /* Header v2 Styles */
